@@ -33,7 +33,7 @@ session_start(); ?>
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
                                     <div class="text-bg">
-                                        <h1>Welcome to  <br> <strong >Brain Twister</strong></h1>
+                                        <h1>Welcome to  <br> Ng3w Gaming </h1>
                                         <span></span>
                                         <a href="index.php#contact">Contact Us</a>
                                     </div>
@@ -61,7 +61,7 @@ session_start(); ?>
                         <div class="about-box">
                             <h3> ABOUT US</h3>
                             <span>all games here</span>
-                            <p>At the Brain Twister page, our aim is to offer recreation that shows you that we really care! Not only have we got the best of them already added, but we can also guarantee that they are more coming on its way. We as a team decided to build something which is light hearted as well informational. Our team consists of 5 members each dedicated in different domains.
+                            <p>At the Ng3w Gaming page, our aim is to offer recreation that shows you that we really care! Not only have we got the best of them already added, but we can also guarantee that they are more coming on its way. We as a team decided to build something which is light hearted as well informational. Our team consists of 4 members each dedicated in different domains.
 
 Our aim is to continue providing our customers with products that keep them happy as well as let them know their capabilities. User satisfaction is our priority and we are open to all types of discussion and suggestions.</p>
                         </div>
