@@ -5,7 +5,7 @@
                 <div class="full">
                     <div class="center-desk">
                         <div class="logo">
-                            <a href="index.html"><img src="images/logo.jpeg" alt="#" width="150" height="150"></a>
+                            <a href="index.php"><img src="images/logo.jpeg" alt="#" width="150" height="150"></a>
                         </div>
                     </div>
                 </div>
