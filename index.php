@@ -102,6 +102,14 @@ Our aim is to continue providing our customers with products that keep them happ
                                         </div>
                                     </div>
                                 </div>
+                                <div class="carousel-item">
+                                    <img class="third-slide slideImg" src="images/demo.png" alt="Third slide">
+                                    <div class="container">
+                                        <div class="carousel-caption relative">
+                                            <a href="ghost.html" class="gameLink">Ghost Game</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev"> <i class='fa fa-angle-left'></i></a>
                             <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next"> <i class='fa fa-angle-right'></i></a>
