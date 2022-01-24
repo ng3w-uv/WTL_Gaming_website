@@ -67,7 +67,7 @@
 
                         <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 padding-right1">
                             <div class="two-box">
-                                <figure><img src="images/<?php echo $fact['image']; ?>" alt="#" /></figure>
+                                <figure></figure>
                             </div>
                         </div>
 
