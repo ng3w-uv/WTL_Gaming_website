@@ -33,6 +33,7 @@
                                 <ul class="Links_footer">
                                     <li> <a href="Typing.php">Typing Test </a> </li>
                                     <li> <a href="Memory.php">Memory Game</a> </li>
+                                    <li> <a href="ghost.php">Ghost Game</a> </li>
                                 </ul>
                             </div>
                         </div>
