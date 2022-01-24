@@ -83,6 +83,10 @@
                         </div>
                     </div>
                     <div class="row float-right pr-5 ml-auto">
+                        <form class="" action="insert.php" method="post">
+                            <input type="hidden" name="id" value="<?php echo $fact['id']; ?>">
+                            <button type="submit" class="btn btn-success">Insert</button>
+                        </form>
                         <form class="" action="update.php" method="post">
                             <input type="hidden" name="id" value="<?php echo $fact['id']; ?>">
                             <button type="submit" class="btn btn-success">Update</button>
