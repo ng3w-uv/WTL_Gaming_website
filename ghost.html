@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ghost!</title>
+    <meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="ghost.css">
+    
+</head>
+
+<body>
+    <script type="text/javascript" src="js/ghost.js"></script>
+    <div>
+        <img name="background" class="background">
+    <div class="abs">
+    <p class="h1">Welcome to the Arcade World !!!</p>
+    
+    <div class="sections">
+        <a href="#game1">Game 1</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#game2">Game 2</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#game3">Game 3</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#game4">Game 4</a><br><br><br><br>
+        <div class="audioelements">
+        <audio controls id="myAudioID1" title="Na Ja" loop>
+            <source src="Na_Ja_1.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+        </audio>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <audio controls id="myAudioID2" title="Brown Munde" loop>
+            <source src="Brown_Munde_1.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+        </audio>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <audio controls id="myAudioID3" title="Jalebi Baby" loop>
+            <source src="Jalebi_Baby.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+        </audio>
+        </div>
+    </div>
+    <br><br><br><a id="game1"><br><br></a>
+
+    <div>
+    <form method="POST">
+    <!-- <div class="game1">Game 1: Can you guess the number ?
+        <input onmouseover="out.value='Lets Play', num.value=''" class="inp" name="num" type="text" maxlength="1">
+        <input onmouseover="out.value='Lets Play'" class="checkbutton btn btn-outline-success" type="button" value="Check" onclick="check(this.form)">
+        <br><br>
+        <div>
+        <img name="preview" src="ghostwin2.gif">&nbsp;&nbsp;&nbsp;
+        <input readonly name="out" class="out" type="text" value="Lets Play">
+        </div>
+    </div> -->
+    </form>
+    </div><br><br><br><br><a id="game2"><br><br></a>
+    
+    <div class="game1">Game 2: Let's find him<br><br><br>
+            <div class="game2">
+                <img name="ghost1" onmouseover="ghost1.src='ghost.gif', ghost2.src='ghost.gif', ghost3.src='ghost.gif', ghost4.src='ghost.gif', ghost5.src='ghost.gif'" src="ghost.gif" onclick="ghostgame('ghost1')">&nbsp;&nbsp;&nbsp;
+                <img name="ghost2" onmouseover="ghost1.src='ghost.gif', ghost2.src='ghost.gif', ghost3.src='ghost.gif', ghost4.src='ghost.gif', ghost5.src='ghost.gif'" src="ghost.gif" onclick="ghostgame('ghost2')">&nbsp;&nbsp;&nbsp;
+                <img name="ghost3" onmouseover="ghost1.src='ghost.gif', ghost2.src='ghost.gif', ghost3.src='ghost.gif', ghost4.src='ghost.gif', ghost5.src='ghost.gif'" src="ghost.gif" onclick="ghostgame('ghost3')">&nbsp;&nbsp;&nbsp;
+                <img name="ghost4" onmouseover="ghost1.src='ghost.gif', ghost2.src='ghost.gif', ghost3.src='ghost.gif', ghost4.src='ghost.gif', ghost5.src='ghost.gif'" src="ghost.gif" onclick="ghostgame('ghost4')">&nbsp;&nbsp;&nbsp;
+                <img name="ghost5" onmouseover="ghost1.src='ghost.gif', ghost2.src='ghost.gif', ghost3.src='ghost.gif', ghost4.src='ghost.gif', ghost5.src='ghost.gif'" src="ghost.gif" onclick="ghostgame('ghost5')">&nbsp;&nbsp;&nbsp;
+            </div>
+    </div><br><br><br><br><br><a id="game3"><br><br></a>
+
+    <div class="game1">Game 3: Fall n fall n fall ...<p class="phone">Not compatible with phone</p><br>
+        <a href="#g3"><button class="game3button checkbutton btn btn-outline-success" onclick="game3()"> Let's Play!</button></a><a id="g3"><br></a><br>
+        <input id="score" type="button" name="game3output" class="game3output" value="Score"><br>
+        <div id="game">
+            <div id="character"></div>
+        </div>
+    </div><br><br><br><br><br><a id="game4"><br><br></a>
+
+    <div class="game1">Game 4: Rock Paper Scissor<br><br>
+        <div>
+            <input readonly class="game4output" id="game4output" name="game4output" value="Let's Play!">
+            <img name="rps" src="rps.gif">
+            <img name="rpsgame" src="rps.png">
+            <img onmouseover="game4output.value='Play!'" id="thumbnails" src="rock.png" onclick="game4('rock')">
+            <img onmouseover="game4output.value='Play!'" id="thumbnails" src="paper.png" onclick="game4('paper')">
+            <img onmouseover="game4output.value='Play!'" id="thumbnails" src="scissor.png" onclick="game4('scissor')">
+        </div>
+    </div><br><br><br><br><br><br><br>
+    
+    <p class="feedback"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeBH_wyyt4qoNthDMzlJQQBoxigSIeOMxS2WGqnTY1UFyxbRw/viewform?usp=sf_link">Leave a feedback here</a>.</p><br>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <div class="footerout">
+        <div class="footer">
+            <div>
+            <div class="copyright">
+                &copy; 2021 Manan Ahuja&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="wrapper">
+                <a target="_blank" href="https://www.facebook.com/manan.ahuja.1614"><div class="icon facebook">
+                  <div class="tooltip">
+          Facebook</div>
+          <span><i class="fab fa-facebook-f"></i></span>
+                </div></a>
+          <a target="_blank" href="https://twitter.com/MananAhuja10"><div class="icon twitter">
+                  <div class="tooltip">
+          Twitter</div>
+          <span><i class="fab fa-twitter"></i></span>
+                </div></a>
+          <a target="_blank" href="https://www.instagram.com/manan_391/"><div class="icon instagram">
+                  <div class="tooltip">
+          Instagram</div>
+          <span><i class="fab fa-instagram"></i></span>
+                </div></a>
+          <a target="_blank" href="https://github.com/Manan-Ahuja"><div class="icon github">
+                  <div class="tooltip">
+          Github</div>
+          <span><i class="fab fa-github"></i></span>
+                </div></a>
+          <a target="_blank" href="https://www.linkedin.com/in/manan-ahuja-0647031a7/"><div class="icon linkedin">
+                  <div class="tooltip">
+          LinkedIn</div>
+          <span><i class="fab fa-linkedin"></i></span>
+                </div>
+          </div></a></div>
+        </div>
+        </div>
+    </div>
+
+</div>
+</div>
+</body>
+
+</html>
