@@ -103,7 +103,7 @@ Our aim is to continue providing our customers with products that keep them happ
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="third-slide slideImg" src="images/demo.png" alt="Third slide">
+                                    <img class="third-slide slideImg" src="ghost_main.png" alt="Third slide">
                                     <div class="container">
                                         <div class="carousel-caption relative">
                                             <a href="ghost.html" class="gameLink">Ghost Game</a>
