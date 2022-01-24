@@ -1,5 +1,5 @@
 
-let TIME_LIMIT = 15;
+let TIME_LIMIT = 30;
 
 let lines_array = [
   "Whatever you are, be a good one.",
