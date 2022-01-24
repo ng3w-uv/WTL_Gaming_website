@@ -1,9 +1,10 @@
 <?php
 
-    $servername = "localhost";
-    $dbname = "wtl";
-    $username = "root";
-    $password = "";
+  $servername = "sql6.freemysqlhosting.net";
+    $dbname = "sql6467698";
+    $username = "sql6467698";
+    $password = "883w66QmSt";
+
 
     try {
         $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
