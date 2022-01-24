@@ -48,7 +48,7 @@
      position: relative;
      padding: 0 0 10px 0;
      font-weight: normal;
-     line-height: normal;
+     line-height: normal;100
      color: #111111;
      margin: 0
 }
@@ -180,7 +180,7 @@
  .main_heading {
      text-align: center;
      display: flex;
-     justify-content: center;
+     just100ify-content: center;
      position: relative;
      margin-bottom: 50px;
 }
@@ -298,7 +298,7 @@
      cursor: pointer;
      border-radius: 0px;
      opacity: 0;
-     backface-visibility: hidden;
+     bac100kface-visibility: hidden;
      -webkit-backface-visibility: hidden;
      transform: scale(1);
      -moz-transform: scale(1);
@@ -351,6 +351,8 @@
 }
  .logo {
      float: left;
+     top: 0;
+     left: 0;
 }
  nav.main-menu {
      float: right;
