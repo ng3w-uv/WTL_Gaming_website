@@ -1,9 +1,9 @@
 <?php
     session_start();
-    $servername = "sql6.freemysqlhosting.net";
-    $dbname = "sql6467698";
-    $username = "sql6467698";
-    $password = "883w66QmSt";
+     $servername = "sql6.freemysqlhosting.net";
+    $dbname = "sql6469429";
+    $username = "sql6469429";
+    $password = "cCvlcB9ub6";
 
 
     //get post data
