@@ -1,9 +1,9 @@
 <?php
     session_start();
-     $servername = "sql6.freemysqlhosting.net";
-    $dbname = "sql6469429";
-    $username = "sql6469429";
-    $password = "cCvlcB9ub6";
+    $servername = "sql6.freemysqlhosting.net";
+    $dbname = "sql6471569";
+    $username = "sql6471569";
+    $password = "BD2sgSM1EC";
 
     try {
         $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
