@@ -1,9 +1,9 @@
 <?php
 
-    $servername = "localhost:3306";
-    $dbname = "game";
-    $username = "root";
-    $password = "YUvi@2705";
+    $servername = "sql6.freemysqlhosting.net";
+    $dbname = "sql6471569";
+    $username = "sql6471569";
+    $password = "BD2sgSM1EC";
 
 
     try {
